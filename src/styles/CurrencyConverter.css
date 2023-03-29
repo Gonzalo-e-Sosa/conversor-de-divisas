@@ -1,0 +1,43 @@
+.currencyConverter-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem 0;
+  background-color: #ff6b0f;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  padding: 1.25rem;
+}
+
+.currency-container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  place-content: center;
+  place-items: center;
+
+  width: 100%;
+  height: 5rem;
+  padding-left: .25rem;
+
+  background-color: #b64905;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;}
+
+.currency-container select, .currency-container input{
+  height: 3.25rem;
+
+  background-color: inherit;
+  color: white;
+
+  font-size: 1.15rem;
+  text-align: center;
+
+  outline: none;
+  border: none;
+}
+
+
